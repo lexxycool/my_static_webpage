@@ -1,0 +1,134 @@
+/* Universal style*/
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body{
+    font-family:  Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+a{
+    color: burlywood;
+}
+h2,h4{
+    margin: 0;
+    padding: 10px;
+}
+
+
+/*header styling*/
+
+header img{
+    height: 50px;
+    padding-left: 10px;
+    
+}
+header{
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    z-index: 1;
+    background-color: black;
+    align-items: center;
+}
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+nav span{
+    text-decoration: underline;
+    display: inline-block;
+    padding: 20px 10px;
+    margin-right: 10px;
+    
+}
+
+/*Main Section*/
+
+.main{
+   padding-top: 69px; 
+   opacity: 0.9;
+   width: 1200px;
+   margin: auto;
+}
+
+/*Mission Section*/
+
+#mission{
+    height: 700px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+#mission .content{
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+/*Store Section*/
+
+#store{
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.item{
+    padding: 5px;
+}
+
+.item img{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+}
+.item span{
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* location section*/
+
+#locations{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+}
+#locate span{
+    padding: 100px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+.location{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    padding: 10px;
+    margin: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 280px;
+    justify-content: center;
+    opacity: 1.0;
+  
+}
+.flex-container.locations{
+    padding-top: 5px;
+} 
+#locations .flex-container{
+    margin: auto;
+    width: 1100px;
+}
